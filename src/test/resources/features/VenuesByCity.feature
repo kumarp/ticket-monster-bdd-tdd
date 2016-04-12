@@ -7,10 +7,10 @@ When I search for "Boston"
 Then I should receive details about the "Boston" venues
 
 
-Scenario: Search for venues in a city with no venues
-Given a list of venues
-When I search for "Charlotte"
-Then I should receive no results
+#Scenario: Search for venues in a city with no venues
+#Given a list of venues
+#When I search for "Charlotte"
+#Then I should receive no results
 
 #Scenario: Add a venue to a city with no venues
 #Given "Charlotte" has no venues
